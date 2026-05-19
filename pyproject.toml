@@ -1,0 +1,13 @@
+[project]
+name = "hermes-memory-stack"
+version = "0.1.0"
+description = "Public implementation kit for a layered Hermes Agent memory stack"
+requires-python = ">=3.10"
+dependencies = ["PyYAML>=6.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

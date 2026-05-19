@@ -1,0 +1,7 @@
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+context:
+  engine: lcm
+compression:
+  enabled: true
